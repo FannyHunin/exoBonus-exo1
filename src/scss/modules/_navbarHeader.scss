@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient((rgba(47, 23, 15, .65), rgba(47, 23, 15, .65))), url("../../../src/img/bg.jpg");
+
+    header {
+        #pageTitle {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-weight: bolder;
+                font-family: 'Raleway', sans-serif;
+                font-size: 32px;
+                color: #E6A756;
+            }
+
+            h1 {
+                font-family: 'Raleway', sans-serif;
+                font-size: 80px;
+                font-weight: 200;
+                color: white;
+            }
+        }
+        #navbar{
+            padding-top: 25px;
+            padding-bottom: 25px;
+            background-color: rgba(47, 23, 15, .8);
+            .nav{
+                .nav-item{
+                    .nav-link{
+                        color: white !important;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 600;
+                        transition: .4s;
+                    }
+                    .nav-link:hover{
+                        color: #E6A756 !important;
+                    }
+                }
+            }
+        }
+    }
+}

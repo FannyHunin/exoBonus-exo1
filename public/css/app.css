@@ -9910,5 +9910,41 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../../../src/img/bg.jpg");
+}
+body header #pageTitle {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body header #pageTitle h2 {
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  color: #E6A756;
+}
+body header #pageTitle h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 80px;
+  font-weight: 200;
+  color: white;
+}
+body header #navbar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgba(47, 23, 15, 0.8);
+}
+body header #navbar .nav .nav-item .nav-link {
+  color: white !important;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.4s;
+}
+body header #navbar .nav .nav-item .nav-link:hover {
+  color: #E6A756 !important;
+}
 
 /*# sourceMappingURL=app.css.map */
