@@ -1,0 +1,38 @@
+#section2 {
+    background-color: #e6a756e6;
+    margin-top: 100px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+        height: max-content;
+        width: 40%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+        border-radius: 15px;
+        border: rgb(255, 255, 255, .2) double 3px;
+
+        h5 {
+            font-family: 'Raleway', sans-serif;
+            font-weight: bolder;
+            font-size: 14px;
+        }
+        h2{
+            font-family: 'Raleway', sans-serif;
+            font-weight: lighter;
+            font-size: 60px;
+        }
+        p{
+            margin-top: 10px;
+            font-size: 16px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+}
